@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mabou-ha <mabou-ha@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/25 18:48:36 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/25 18:55:33 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/26 00:44:07 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 int main() {
+	ClapTrap f;
 	ClapTrap a("Alpha");
 	ClapTrap b("Bravo");
 

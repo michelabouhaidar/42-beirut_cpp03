@@ -1,28 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/25 18:48:36 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 00:14:04 by mabou-ha         ###   ########.fr       */
+/*   Created: 2025/09/26 00:17:42 by mabou-ha          #+#    #+#             */
+/*   Updated: 2025/09/26 00:31:50 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
-#include <iostream>
+#ifndef FRAGTRAP_HPP
+#define FRAGTRAP_HPP
 
-int main() {
-	ScavTrap s("SC4V-T");
-	s.attack("trespasser");
-	s.takeDamage(15);
-	s.beRepaired(10);
-	s.guardGate();
-	ScavTrap t = s;
-	s.attack("another");
-	ScavTrap u("Unit");
-	u = s;
-	return 0;
-}
+#include "ClapTrap.hpp"
 
+class FragTrap : public ClapTrap
+{
+	public:
+		FragTrap();
+		FragTrap(const std::string& name);
+		FragTrap(const FragTrap& obj);
+		FragTrap& operator=(const FragTrap& obj);
+		~FragTrap();
+		void attack(const std::string& target);
+		void highFivesGuys();
+};
+
+#endif
