@@ -6,12 +6,12 @@
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/25 19:00:03 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 00:07:50 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/26 20:06:52 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SLAVTRAP_HPP
-#define SLAVTRAP_HPP
+#ifndef SCAVTRAP_HPP
+#define SCAVTRAP_HPP
 
 #include "ClapTrap.hpp"
 
