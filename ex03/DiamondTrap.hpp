@@ -6,7 +6,7 @@
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/26 13:00:41 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 19:57:36 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/29 18:32:05 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class DiamondTrap : public ScavTrap, public FragTrap
 		DiamondTrap(const std::string& name);
 		DiamondTrap(const DiamondTrap& obj);
 		DiamondTrap& operator=(const DiamondTrap& obj);
-		virtual ~DiamondTrap();
+		~DiamondTrap();
 		void attack(const std::string& target);
 		void whoAmI();
 };
