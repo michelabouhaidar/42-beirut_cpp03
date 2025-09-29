@@ -6,7 +6,7 @@
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/25 19:00:00 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 21:33:38 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/29 18:35:59 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ ScavTrap& ScavTrap::operator=(const ScavTrap& obj)
 {
 	if (this != &obj)
 		ClapTrap::operator=(obj);
-	std::cout << "ScavTrap < " << name_ << " > copy assignment constructor called" << std::endl;
+	std::cout << "ScavTrap < " << name_ << " > copy assignment operator called" << std::endl;
 	return *this;
 }
 

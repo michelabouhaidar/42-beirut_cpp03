@@ -6,7 +6,7 @@
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/26 00:17:45 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 21:34:00 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/29 18:36:00 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ FragTrap& FragTrap::operator=(const FragTrap& obj)
 {
 	if (this != &obj)
 		ClapTrap::operator=(obj);
-	std::cout << "FragTrap < " << name_ << " > copy assignment constructor called" << std::endl;
+	std::cout << "FragTrap < " << name_ << " > copy assignment operator called" << std::endl;
 	return *this;
 }
 

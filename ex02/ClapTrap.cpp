@@ -6,7 +6,7 @@
 /*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 13:20:42 by mabou-ha          #+#    #+#             */
-/*   Updated: 2025/09/26 21:32:49 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/29 18:36:01 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ ClapTrap& ClapTrap::operator=(const ClapTrap& obj)
 	this->pts_ = obj.pts_;
 	this->nrg_pts_ = obj.nrg_pts_;
 	this->atk_pts_ = obj.atk_pts_;
-	std::cout << "ClapTrap < " << name_ << " > copy assignment constructor called" << std::endl;
+	std::cout << "ClapTrap < " << name_ << " > copy assignment operator called" << std::endl;
 	return *this;
 }
 
